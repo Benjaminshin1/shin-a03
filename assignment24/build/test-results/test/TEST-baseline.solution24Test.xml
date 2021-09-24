@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.solution24Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-24T00:45:21" hostname="DESKTOP-B5D0G6J" time="0.015">
+  <properties/>
+  <testcase name="isAnagram()" classname="baseline.solution24Test" time="0.015"/>
+  <system-out><![CDATA[hello and olleh are anagrams.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
