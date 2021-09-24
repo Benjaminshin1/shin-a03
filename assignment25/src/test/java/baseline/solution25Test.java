@@ -14,4 +14,18 @@ class solution25Test {
 
         assertEquals(expected, actual, 8);
     }
+
+    @Test
+    void return_special() {
+        solution25 app = new solution25();
+        boolean actual = app.return_special("special!");
+        assertEquals(true, actual);
+    }
+
+    @Test
+    void is_digit() {
+        solution25 app = new solution25();
+        boolean actual = app.return_special("ben1");
+        assertEquals(true, actual);
+    }
 }
