@@ -26,6 +26,6 @@ class solution25Test {
     void is_digit() {
         solution25 app = new solution25();
         boolean actual = app.return_special("ben1");
-        assertEquals(true, actual);
+        assertEquals(false, actual);
     }
 }
