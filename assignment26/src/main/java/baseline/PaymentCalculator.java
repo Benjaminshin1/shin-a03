@@ -5,10 +5,6 @@
 
 /*
 
-Write a program that will help you determine how many months it will take to pay off a credit card balance.
-The program should ask the user to enter the balance of a credit card, the APR of the card, and their monthly payment.
-The program should then return the number of months needed (rounded up to the next integer value).
-
 The formula for this is
     n = -(1/30) * log(1 + b/p * (1 - (1 + i)^30)) / log(1 + i)
 
@@ -28,31 +24,35 @@ package baseline;
 
 import java.util.Scanner;
 
+import static java.lang.Math.log;
+
 public class PaymentCalculator {
     public static final Scanner input = new Scanner(System.in);
 
     public void calculateMonthsUntilPaidOff() {
+        PaymentCalculator app = new PaymentCalculator();
         //takes no parameters and returns the number of months.
 
-        //n is the number of months.
-        int n=0;
-        //i is the daily rate (APR divided by 365).
-        float i;
         //b is the balance.
-        float b;
-        //p is the monthly payment.
-        int p;
-    }
-
-    public int calculate(int n,int i,float b, int p){
-        //calculate how many months it will take and return the value
-        return n;
-    }
-
-    public float return_APR(float APR){
-        float i;
+        double b=app.input_double("What is your balance?");
+        //n is the number of months.
+        double n=0;
         //i is the daily rate (APR divided by 365).
-        return APR;
+        double i=app.input_double("What is the APR on the card (as a percent)?");
+
+        //p is the monthly payment.
+        double p= app.input_double("What is the monthly payment you can make?");
+        n=app.calculate(n,i,b,p);
+        System.out.println(n);
+    }
+
+    public double calculate(double n, double i,double b, double p){
+        //calculate how many months it will take and return the value
+        //double pow = Math.pow((1+i),30);
+        i = (i/100)/365;
+        n = -(1/30) * log(1 + b/p * Math.pow(1+i,30)) / log(1 + i);
+        //n = -(1/30) * log(1 + b/p * (1 - (1 + i)^30)) / log(1 + i)
+        return n;
     }
 
 
@@ -62,10 +62,10 @@ public class PaymentCalculator {
         System.out.println(prompt);
         return input.next();
     }
-    public float input_float(String prompt) {
+    public double input_double(String prompt) {
         //create a scanner function for the inputs
         System.out.println(prompt);
-        return input.nextFloat();
+        return input.nextDouble();
     }
 
     public static void main(String[] args) {
