@@ -8,27 +8,6 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/*
-Large functions aren’t very usable or maintainable.
-It makes a lot of sense to break down the logic of a program into smaller functions that do one thing each. The program can then call these functions in sequence to perform the work.
-
-Use a single output statement to display the outputs.
-
-Enter the first name: J
-Enter the last name:
-Enter the ZIP code: ABCDE
-Enter the employee ID: A12-1234
-
-The employee ID must be in the format of AA-1234.
-The zipcode must be a 5 digit number.
-
-Enter the first name: John
-Enter the last name: Johnson
-Enter the ZIP code: 55555
-Enter the employee ID: TK-4321
-There were no errors found.
-
- */
 public class solution27 {
     public static final Scanner input = new Scanner(System.in);
 
