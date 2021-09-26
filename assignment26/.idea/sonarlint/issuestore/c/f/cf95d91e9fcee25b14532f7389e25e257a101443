@@ -1,0 +1,11 @@
+
+N	java:S106."9Replace this use of System.out or System.err by a logger.(†™ñ‹
+Q	java:S1253"<This block of commented-out lines of code should be removed.(İÆñÏ
+h	java:S100<"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÒßøÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+h	java:S100A"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í¡şûÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+[
+java:S21845"@Cast one of the operands of this integer division to a "double".(§áîËøÿÿÿÿ
+`
+java:S12265">Introduce a new variable instead of reusing the parameter "n".(§áîËøÿÿÿÿ8Şµú„Â/
