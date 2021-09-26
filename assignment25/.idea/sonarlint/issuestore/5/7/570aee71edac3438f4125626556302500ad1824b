@@ -1,0 +1,28 @@
+
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æä¡æúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+h	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±«ã²ûÿÿÿÿ
+D
+java:S1481'")Remove this unused "weak" local variable.(Ë‡èüÿÿÿÿ
+?
+java:S1481)")Remove this unused "weak" local variable.(«À¤
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ıô‘ùÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ÆÛ‚Ê
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(€ßÓÇ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(¬‚‘£ùÿÿÿÿ
+Z	java:S106B"9Replace this use of System.out or System.err by a logger.(ãÏğøÿÿÿÿ8·É¬Á/
+h	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ı„œßùÿÿÿÿ
+h	java:S100R"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿‹öÈùÿÿÿÿ
+]
+java:S1128"@Remove this unused import 'jdk.swing.interop.SwingInterOpUtils'.(ñ©Ìë8ÕÕ¬Á/
+j
+java:S11922"ODefine a constant instead of duplicating this literal "The password '" 4 times.(ıô‘ùÿÿÿÿ
+k	java:S117!"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±«ã²ûÿÿÿÿ
+f	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Õÿø
+t
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "length".(€àš¦
+t
+java:S1488M"^Immediately return this expression instead of assigning it to the temporary variable "status".(ĞäûÄ
+t
+java:S1488W"^Immediately return this expression instead of assigning it to the temporary variable "status".(ĞäûÄ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(”ÄÜøÿÿÿÿ

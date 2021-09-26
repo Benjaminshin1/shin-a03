@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.solution27Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-09-26T17:21:42" hostname="DESKTOP-B5D0G6J" time="0.014">
+  <properties/>
+  <testcase name="check_last()" classname="baseline.solution27Test" time="0.012"/>
+  <testcase name="check_zip()" classname="baseline.solution27Test" time="0.0"/>
+  <testcase name="check_first()" classname="baseline.solution27Test" time="0.0"/>
+  <testcase name="check_ID()" classname="baseline.solution27Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
