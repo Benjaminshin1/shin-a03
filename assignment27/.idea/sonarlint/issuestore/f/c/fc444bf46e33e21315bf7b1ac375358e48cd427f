@@ -1,0 +1,22 @@
+
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÒßøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶Û¼Íøÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(—ë¬¯
+c	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÉß
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ü™©…
+h	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ý»‡¡ýÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(ûÑÁÿøÿÿÿÿ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(ø´å®ÿÿÿÿÿ
+b	java:S100="NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ–›>
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(”ŠÝæÿÿÿÿÿ
+h	java:S100P"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú×ïÞýÿÿÿÿ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(÷çßû
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’îÜÝ
+k	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú×ïÞýÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨‡èŸøÿÿÿÿ
+E
+java:S5411#"*Use the primitive boolean expression here.(¸ÑË¨þÿÿÿÿ
+R
+java:S49737"<Strings and Boxed types should be compared using "equals()".(¨¼Íö
+_
+java:S3973V"IUse indentation to denote the code conditionally executed by this "else".(ÔÍØ
