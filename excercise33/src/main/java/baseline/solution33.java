@@ -3,11 +3,12 @@
  *  Copyright 2021 Benjamin Shin
  */
 /*
-Create a Magic 8 Ball game that prompts for a question and then displays either "Yes," "No," "Maybe," or "Ask again later."
-The value should be chosen randomly using a pseudo random number generator. Store the possible choices in a list and select one at random.
  */
 package baseline;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 
 public class solution33 {
@@ -16,16 +17,33 @@ public class solution33 {
     public int randomnumber(){
         //return a random number 1-4 to generate a random question
         int number=0;
+        Random rand = new Random();
+        number=rand.nextInt(4);
         return number;
     }
 
     public void give_wisdom(int number){
+        solution33 app = new solution33();
         //give an answer based on the number generated
+        //store the answers in an array
+        List<String> wisdom = new ArrayList<>();
+
+        // Adding new elements to the ArrayList
+        wisdom.add("Yes");
+        wisdom.add("No");
+        wisdom.add("Maybe");
+        wisdom.add("Ask again later.");
+        //answer user using a randomly generated number generator to give a random answer
+        System.out.println(wisdom.get(number));
     }
 
     public static void main(String[] args) {
-        //prompt user to ask for a question
-        //answer user using a randomly generated number generator to give a random answer
+        solution33 app = new solution33();
 
+        //prompt user to ask for a question
+        System.out.println("What is your question? :");
+        String sentence = input.nextLine();
+
+        app.give_wisdom(app.randomnumber());
     }
 }
