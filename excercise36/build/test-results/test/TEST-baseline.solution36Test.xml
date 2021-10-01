@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="baseline.solution36Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-01T03:48:25" hostname="DESKTOP-B5D0G6J" time="0.013">
+  <properties/>
+  <testcase name="average()" classname="baseline.solution36Test" time="0.011"/>
+  <testcase name="max()" classname="baseline.solution36Test" time="0.001"/>
+  <testcase name="min()" classname="baseline.solution36Test" time="0.0"/>
+  <testcase name="std()" classname="baseline.solution36Test" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
