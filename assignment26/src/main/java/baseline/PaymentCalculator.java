@@ -23,7 +23,6 @@ Round fractions of a cent up to the next cent for internal calculations
 package baseline;
 
 import java.util.Scanner;
-
 import static java.lang.Math.log;
 
 public class PaymentCalculator {
@@ -36,32 +35,26 @@ public class PaymentCalculator {
         //b is the balance.
         double b=app.input_double("What is your balance?");
         //n is the number of months.
-        double n=0;
+        double n;
         //i is the daily rate (APR divided by 365).
         double i=app.input_double("What is the APR on the card (as a percent)?");
 
         //p is the monthly payment.
         double p= app.input_double("What is the monthly payment you can make?");
-        n=app.calculate(n,i,b,p);
-        System.out.println(n);
+        n=app.calculate(i,b,p);
+        System.out.println("It will take you " + Math.ceil(n)+ " months to pay off this card.");
     }
 
-    public double calculate(double n, double i,double b, double p){
+    public double calculate(double i,double b, double p){
         //calculate how many months it will take and return the value
-        //double pow = Math.pow((1+i),30);
-        i = (i/100)/365;
-        n = -(1/30) * log(1 + b/p * Math.pow(1+i,30)) / log(1 + i);
-        //n = -(1/30) * log(1 + b/p * (1 - (1 + i)^30)) / log(1 + i)
+        double n;
+        i=(i/365)/100;
+        //didnt work until i used decimals for 1/30
+        n =(-1.0/30.0) * Math.log(1 + ((b/p) * (1 - (Math.pow((1 + i), 30)))));
+        n=n/Math.log(1 + i);
         return n;
     }
 
-
-
-    public String input_string(String prompt) {
-        //create a scanner function for the inputs
-        System.out.println(prompt);
-        return input.next();
-    }
     public double input_double(String prompt) {
         //create a scanner function for the inputs
         System.out.println(prompt);
