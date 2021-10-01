@@ -1,0 +1,15 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ıïÚıÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä¦ğúÿÿÿÿ
+A
+java:S1481"+Remove this unused "status" local variable.(ôºü¯
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¸¯¼ıÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ˆ×­éùÿÿÿÿ
+h	java:S100%"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¦û¼ûÿÿÿÿ
+9
+java:S2119&"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıïÚıÿÿÿÿ
+y
+java:S1488("^Immediately return this expression instead of assigning it to the temporary variable "winner".(ùâÛèÿÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ûĞÃşÿÿÿÿ
