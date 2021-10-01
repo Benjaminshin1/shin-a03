@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="baseline.solution25Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-09-26T00:47:23" hostname="DESKTOP-B5D0G6J" time="0.014">
+<testsuite name="baseline.solution25Test" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-01T02:22:27" hostname="DESKTOP-B5D0G6J" time="0.017">
   <properties/>
-  <testcase name="passwordValidator()" classname="baseline.solution25Test" time="0.012"/>
+  <testcase name="passwordValidator()" classname="baseline.solution25Test" time="0.016"/>
   <testcase name="return_special()" classname="baseline.solution25Test" time="0.0"/>
   <testcase name="is_digit()" classname="baseline.solution25Test" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

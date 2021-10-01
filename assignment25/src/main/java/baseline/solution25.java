@@ -11,8 +11,6 @@ If a password does not meet any of these rules, then report it as a password of 
  */
 package baseline;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
