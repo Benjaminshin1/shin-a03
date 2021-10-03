@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="baseline.solution37Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-02T03:25:54" hostname="DESKTOP-B5D0G6J" time="0.015">
+<testsuite name="baseline.solution37Test" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-02T03:56:00" hostname="DESKTOP-B5D0G6J" time="0.015">
   <properties/>
   <testcase name="numbers()" classname="baseline.solution37Test" time="0.011"/>
   <testcase name="letters()" classname="baseline.solution37Test" time="0.0"/>
-  <testcase name="special_characters()" classname="baseline.solution37Test" time="0.0"/>
+  <testcase name="special_characters()" classname="baseline.solution37Test" time="0.001"/>
   <testcase name="generate_password()" classname="baseline.solution37Test" time="0.002"/>
-  <system-out><![CDATA[Your password is ls8e^i357wo^u!m%
+  <system-out><![CDATA[Your password is kivv!4e^&&y7xo74
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

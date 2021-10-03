@@ -1,0 +1,16 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(ÏÑˆ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÑˆ
+@
+java:S1197!"*Move the array designators [] to the type.(‘‡ìî
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(á¹²Æşÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(è­º
+‹
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‡¨„Üüÿÿÿÿ
+‚
+java:S1319"gThe type of "numbers" should be an interface such as "List" rather than the implementation "ArrayList".(‡¨„Üüÿÿÿÿ
+†
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÏÑˆ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö º¸şÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³ÆÇú

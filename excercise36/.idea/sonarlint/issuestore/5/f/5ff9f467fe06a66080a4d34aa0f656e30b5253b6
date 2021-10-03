@@ -1,0 +1,20 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(—ºòüÿÿÿÿ
+E
+java:S3740 "/Provide the parametrized type for this generic.(½…àÀ
+J
+java:S3740-"/Provide the parametrized type for this generic.(¤ö¸Éÿÿÿÿÿ
+J
+java:S37409"/Provide the parametrized type for this generic.(¼éÆ§øÿÿÿÿ
+b	java:S100Q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıûc
+N	java:S106X"9Replace this use of System.out or System.err by a logger.(ÖáõÓ
+C	java:S108c")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ
+M	java:S106|"9Replace this use of System.out or System.err by a logger.(›´
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(ñ‰Êÿÿÿÿÿ
+N	java:S106€"9Replace this use of System.out or System.err by a logger.(…Ğ½R
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(·ƒÙøÿÿÿÿ
+o
+java:S2293S"YReplace the type specification in this constructor call with the diamond operator ("<>").(´Äİı
+f	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«¨î
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Üıëã
